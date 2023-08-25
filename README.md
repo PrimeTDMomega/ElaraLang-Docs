@@ -1,4 +1,4 @@
-# Nextra Docs Template 
+# CapyAPI Docs
 
 This is a template for creating documentation with [NextJS](https://nextjs.org/)
 
