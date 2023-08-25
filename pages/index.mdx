@@ -1,11 +1,30 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+ # CapyAPI
 
-## What is Nextra?
+This is a simple API that provides facts about capybaras and allows you to get random images of them.
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+## Prerequisites
 
-## Documentation
+To run this API, you will need the following:
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+* Node.js v16 or later
+* npm v7 or later
+
+## Installation
+
+1. Clone this repository.
+2. Run `npm install` to install the dependencies.
+3. Create a `.env` file in the root directory of the project and add the following environment variables:
+
+```
+BASE_URL=http://localhost:3000
+```
+
+4. Run `npm start` to start the API.
+
+## Usage
+
+The API provides the following endpoints:
+
+* `/v1/image/random`: Gets a random image of a capybara.
+* `/v1/image/:id`: Gets an image of a capybara by ID.
+* `/v1/facts/random`: Gets a random fact about capybaras.
