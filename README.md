@@ -1,15 +1,2 @@
 # ElaraLang Documentation
-
-This is a template for creating documentation with [NextJS](https://nextjs.org/)
-
-[**Live Demo →**](https://capyAPI.vercel.app)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+This is the repository that has the code for the website and the markdown for [ElaraLang/elara](https://github.com/Elaralang/elara/)
