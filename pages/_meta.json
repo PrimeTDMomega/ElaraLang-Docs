@@ -1,6 +1,6 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
+  "another": "About",
   "advanced": "Advanced",
   "about": {
     "title": "About",
@@ -9,7 +9,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://dsc.gg/WitheredKnights/",
+    "href": "https://discord.com/xu5gSTV/",
     "newWindow": true
   }
 }

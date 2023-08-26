@@ -1,31 +1,49 @@
-# Another Page
+---
+title: About Elara Programming Language
+---
 
-```js filename="demo.js" {3} copy
-let a = 1;
+# About Elara Programming Language
 
-console.log(a);
-```
+Elara is an exciting programming language designed for the Java Virtual Machine (JVM) that combines functional programming paradigms with a familiar and expressive syntax. Drawing inspiration from languages like Haskell and F#, Elara aims to provide a powerful and developer-friendly environment for JVM-based applications.
 
-## Component
+## Key Features
 
-import { useState } from 'react'
+### Expressive Syntax
 
-{/* Import CSS modules */}
-import styles from '../components/counters.module.css'
+Elara's syntax has been crafted with inspiration from Haskell and F#, resulting in a coding style that is both expressive and concise. This makes it easier for developers familiar with these languages to transition to Elara and start writing clean and elegant code.
 
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
-    </div>
-  );
-};
+### Hindley-Milner Type System
 
-<Counter/>
+At the core of Elara's reliability is its Hindley-Milner type system. This system not only ensures that your code is type-safe, but it also offers type inference capabilities that catch errors early during compilation. This leads to more robust and maintainable code.
 
-## External Component
+### Functional Purity Enforcement
 
-import Counters from '../components/counters'
+Elara enforces the concept of functional purity, encouraging developers to write functions that are devoid of side effects. This helps reduce bugs, makes code easier to test, and enhances overall code quality.
 
-<Counters />
+### Interoperability with Java
+
+Elara seamlessly integrates with Java code, providing developers with the flexibility to leverage existing Java libraries and resources. This interoperability ensures that you can combine the power of both languages within your projects.
+
+## Project Status
+
+As of now, Elara is a work in progress and is not yet suitable for production use. Our team is actively working on its development, refining features, and addressing issues to bring it to a stable state.
+
+## Get Involved
+
+If you're excited about Elara and want to contribute or stay updated on its progress, we invite you to join our [Discord community](https://discord.gg/xu5gSTV). Connect with fellow enthusiasts, share ideas, and be a part of shaping the future of the language.
+
+## License
+
+Elara is open-source software released under the [MIT License](LICENSE). Feel free to explore the code, contribute, and build upon it.
+
+## Library Acknowledgments
+
+Elara owes its existence to the contributions of various open-source projects. We extend our gratitude, with a special mention to [Grace](https://github.com/Gabriella439/grace), which has played a pivotal role in enhancing Elara's type checking capabilities.
+
+## Technical Details
+
+- **Primary Languages:** Elara is primarily implemented using Haskell (95%), with contributions from Nix (1.3%) and Lex (1.3%).
+
+---
+
+*Note: The information provided here is based on content available up to September 2021. For the latest updates, please refer to the official Elara GitHub repository and other official communication channels.*
