@@ -1,10 +1,9 @@
-# CapyAPI Docs
+# ElaraLang Documentation
 
 This is a template for creating documentation with [NextJS](https://nextjs.org/)
 
 [**Live Demo →**](https://capyAPI.vercel.app)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 ## Local Development
 
 First, run `pnpm i` to install the dependencies.
